@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Simple portfolio">
+    <meta name="keywords" content="HTML, CSS">
+    <meta name="author" content="Sathwika">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="index.js" type="text/javascript"></script>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo"><span>S</span>athwika</a>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About me</a>
+            <a href="#Skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="hamburger">
+            <i class="fa-sharp fa-solid fa-bars"></i>
+        </div>
+
+    </header>
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hi</h3>
+            <h1>I'm <span>Sathwika</span> a Frontend Developer</h1>
+            <p>I am a passionate frontend developer with a strong focus on creating responsive, user-friendly web applications. I thrive on turning complex ideas into intuitive, functional interfaces. </p>
+            <button class="button-1">Hire me</button>
+        </div>
+        <div class="image-cont">
+            <img src="https://www.quasa.io/storage/photos/%D0%A4%D0%BE%D1%82%D0%BE%2014/AOL%2011.jpeg" alt="image" />
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="Bussa Sathwika's Pic.jpeg" alt="image" />
+        </div>
+        <div class="about-content">
+            <h4 class="heading">About <span>Me</span></h4>
+            <h2>Frontend <span>Developer</span></h2>
+            <p>Hello I'm Sathwika, I am a skilled frontend developer with a passion for creating visually appealing, user-centric web applications. With a strong command of HTML, CSS, JavaScript, and React, I bring designs to life with a focus on responsive layouts and seamless user experiences. My expertise lies in building clean, maintainable code that not only meets project requirements but also enhances usability and accessibility.</p>
+            <!-- <a href="/images/Sathwika B Resume.pdf" class="button-1" download="/images/Sathwika Resume.pdf">Download CV</a> -->
+            <a class="button-1" href="Sathwika B Resume.pdf" download="Sathwika Resume.pdf">Download CV</a>
+        </div>
+    </section>
+    <section class="skills">
+        <div class="skill-container" id="Skills">
+            <h1 class="heading">My <span>Skills</span></h1>
+            <div class="skill-bars">
+                <div class="bar"><i style="color: #c95d2e" class="fa-brands fa-html5"></i>
+                    <div class="info">
+                        <span class="skill">HTML</span>
+                    </div>
+                    <div class="progress-line html">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="bar"><i style="color: #147bbc" class="fa-brands fa-css3-alt"></i>
+                    <div class="info">
+                        <span class="skill">CSS</span>
+                    </div>
+                    <div class="progress-line css">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="bar"><i style="color: #b0bc1e" class="fa-brands fa-js"></i>
+                    <div class="info">
+                        <span class="skill">Javascript</span>
+                    </div>
+                    <div class="progress-line javascript">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="bar"><i style="color: #c32ec9" class="fa-brands fa-python"></i>
+                    <div class="info">
+                        <span class="skill">Python</span>
+                    </div>
+                    <div class="progress-line python">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="bar"><i style="color: #69bcbc" class="fa-brands fa-react"></i>
+                    <div class="info">
+                        <span class="skill">React JS</span>
+                    </div>
+                    <div class="progress-line react">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="bar"><i style="color: #2ec94db7" class="fa-brands fa-node"></i>
+                    <div class="info">
+                        <span class="skill">Node JS</span>
+                    </div>
+                    <div class="progress-line node">
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="projects">
+        <div class="projects-container">
+            <h1 class="heading2">My <span>Projects</span></h1>
+            <div class="project-cards">
+                <div class="project-card-container">
+                    <img src="https://tse4.mm.bing.net/th?id=OIP.0awb2JfyWSrlTBdTzIZmngHaD4&pid=Api&P=0&h=180" alt="generative ai" />
+                    <h1 class="sub-title">Generative AI</h1>
+                    <p class="sub-para">I have designed and developed a generative AI chatbot similar to ChatGPT, using HTML, CSS, and JavaScript. This project showcases my ability to integrate advanced AI technologies into a user-friendly web interface.</p>
+                    <a href="Generative AI/genindex.html" class="more-link">View More <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+                <div class="project-card-container">
+                    <img src="https://tse3.mm.bing.net/th?id=OIP.4B-q0pJAU3t6WUZznaAbqgHaEK&pid=Api&P=0&h=180" alt="Wikipedia" />
+                    <h1 class="sub-title">Wikipedia Search Application</h1>
+                    <p class="sub-para">I developed a Wikipedia search application using HTML, CSS, and JavaScript. This project allows users to search for articles on Wikipedia directly from the app, displaying results in real-time.</p>
+                    <a href="Wikipedia/wikiindex.html" class="more-link">View More <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="contact-container">
+            <h1 class="contact-heading">Contact <span>Me</span></h1>
+            <form action="#">
+                <div class="input-box">
+                    <input type="text" placeholder="Full Name" />
+                    <input type="email" placeholder="Email" />
+                </div>
+                <div class="input-box">
+                    <input type="text" placeholder="Phone Number" />
+                    <input type="text" placeholder="Subject" />
+                </div>
+                <textarea name="" id="" col="30" rows="10" placeholder="Your Message"></textarea>
+                <input type="submit" value="Send Message" class="button-2" />
+            </form>
+        </div>
+    </section>
+    <footer class="footer">
+        <p style="padding-top: 20px;">Connect with me on</p>
+        <div class="social-media-icons">
+            <a href="https://github.com/Sathwikabussa"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/sathwika-bussa-17172123b/"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+        <p>Copyright <i class="fa-regular fa-copyright"></i> 2024 Personal Portfolio</p>
+    </footer>
+</body>
+</html>
